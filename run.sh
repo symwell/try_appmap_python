@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python program.py
+APPMAP=true python program.py
