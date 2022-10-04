@@ -1,7 +1,10 @@
 import appmap
 
+def message():
+    return 'Hello World!'
+
 def say_hi():
-    print('Hello World!')
+    print(message())
 
 def main():
     counter = 0
@@ -10,4 +13,4 @@ def main():
             say_hi()
         counter += 1
 
-main()
+#main()

@@ -3,10 +3,9 @@ import pytest
 import unittest
 #import pytest
 
-from program import say_hi
+from program import message
 
 class TestProgram(unittest.TestCase):
 
     def test_say_hi(self):
-        print(say_hi())
-        assert say_hi() == 'Hello World!'
+        assert message() == 'Hello World!'
