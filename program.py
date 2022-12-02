@@ -13,4 +13,5 @@ def main():
             say_hi()
         counter += 1
 
-#main()
+if __name__ == "__main__":
+    main()
