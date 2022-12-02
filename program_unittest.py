@@ -1,6 +1,5 @@
 import os
 import unittest
-import appmap.unittest
 
 from program import message
 
