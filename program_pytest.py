@@ -3,7 +3,7 @@ import pytest
 
 from program import message
 
-class TestProgram(unittest.TestCase):
+class TestProgram():
 
     def test_say_hi(self):
         assert message() == 'Hello World!'
