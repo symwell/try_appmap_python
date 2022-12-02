@@ -1,7 +1,9 @@
 #!/bin/bash
 
+rm -rf tmp/appmap
+
 #export APPMAP=true
 #export APPMAP_RECORD_UNITTEST=true
 #export APPMAP=false
-export PYTHONPATH=$HOME/src/appmap-python
-pytest -s -v program2_test.py
+#export PYTHONPATH=$HOME/src/appmap-python
+APPMAP=true pytest -s -v program_pytest.py
